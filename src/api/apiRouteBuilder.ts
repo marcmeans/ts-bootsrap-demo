@@ -1,5 +1,5 @@
-import { blogService } from 'src/api/services/blog.service';
 import { BaseRouter } from 'ts-bootstrap';
+import { blogService } from './services/blog.service';
 import { blogRabbit } from './services/data/blog.rabbit';
 import { healthService } from './services/health.service';
 
