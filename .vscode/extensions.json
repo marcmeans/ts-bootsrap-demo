@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		"eg2.tslint",
+		"WallabyJs.wallaby-vscode",
+		"rbbit.typescript-hero",
+		"pprice.better-merge",
+		"samverschueren.yo"
+	]
+}

@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true
+	},
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/dist": true
+	},
+	"typescriptHero.restartDebugger.active": false
+}
