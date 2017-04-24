@@ -35,7 +35,7 @@ describe('HealthService', async () => {
 
 			let result = await _classUnderTest.getHealth();
 
-			assert.calledWith((<sinon.SinonSpy>logger.log), 'health', LogLevel.info, 'health checked');
+			assert.calledWith((<sinon.SinonSpy>logger.log), LogLevel.info, 'health checked');
 			expect(result).to.equal('Version: ' + _version + ' | OK');
 
 		});

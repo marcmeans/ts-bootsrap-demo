@@ -8,7 +8,7 @@ export class HealthService {
 	public async getHealth(): Promise<string> {
 
 		this._pkg = this._pkg || JSON.parse(fs.readFileSync('package.json', 'utf8'));
-		logger.log('health', LogLevel.info, 'health checked');
+		logger.log(LogLevel.info, 'health checked');
 		return 'Version: ' + this._pkg.version + ' | OK';
 
 	}
