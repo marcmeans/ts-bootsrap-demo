@@ -1,10 +1,13 @@
 import * as Joi from 'joi';
-import { IBaseHeader } from 'ts-bootstrap';
 
 export interface IAddBlogEvent {
 	title: string;
+	description: string;
+	author: string;
 }
 
 export const addBlogEvent = {
-	title: Joi.string().required()
+	title: Joi.string().required(),
+	description: Joi.string().required(),
+	author: Joi.string().required()
 };
